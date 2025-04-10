@@ -9,7 +9,7 @@ import string
 
 # Load environment variables
 load_dotenv()
-genai.configure(api_key="AIzaSyBfxFqHgQ626izoYOdz8UdVtcAis2Q_Q_A")  # Replace with os.getenv("GOOGLE_API_KEY") in prod
+genai.configure(api_key="API KEY")  # Replace with os.getenv("GOOGLE_API_KEY") in prod
 
 # PDF text extractor
 def input_pdf_text(uploaded_file):
